@@ -1,1 +1,18 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+    
+    .div1 { 
+        grid-area: 1 / 1 / 6 / 2;
+        background-color: aqua;
+     }
+    .div2 { 
+        grid-area: 1 / 2 / 6 / 9;
+        background-color: blue;
+    }
 

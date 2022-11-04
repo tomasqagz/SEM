@@ -4,7 +4,16 @@ import {Sidebar} from './components/Sidebar';
 function App() {
   return (
     <div>
-      <Sidebar></Sidebar>
+      
+      
+      
+      <div class="parent">
+        <div class="div1"> <Sidebar></Sidebar> </div>
+        <div class="div2"> </div>
+      </div>
+      
+       
+      
     </div>
   );
 }
