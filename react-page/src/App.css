@@ -9,10 +9,10 @@
     
     .div1 { 
         grid-area: 1 / 1 / 6 / 2;
-        background-color: aqua;
+        background-color: whitesmoke;
      }
     .div2 { 
         grid-area: 1 / 2 / 6 / 9;
-        background-color: blue;
+        background-color: whitesmoke;
     }
 

@@ -1,0 +1,49 @@
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    height: 95vh;
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+    }
+    
+    .div11 { 
+        color: whitesmoke;
+        background-color: #212121;
+        grid-area: 1 / 1 / 5 / 2;
+        border:3px solid #5fa2db;
+        border-radius: 25px;
+    }
+    .div21 { 
+        color: whitesmoke;
+        background-color: #212121;
+        grid-area: 1 / 2 / 2 / 5;
+        border:3px solid #5fa2db;
+        border-radius: 25px;
+     }
+    .div31 { 
+        color: whitesmoke;
+        background-color: #212121;
+        grid-area: 2 / 2 / 3 / 5;
+        border:3px solid #5fa2db;
+        border-radius: 25px;
+     }
+    .div41 { 
+        color: whitesmoke;
+        background-color: #212121;
+        grid-area: 3 / 2 / 4 / 5;
+        border:3px solid #5fa2db;
+        border-radius: 25px;
+     }
+    .div51 { 
+        color: whitesmoke;
+        background-color: #212121;
+        grid-area: 4 / 2 / 5 / 5;
+        border:3px solid #5fa2db;
+        border-radius: 25px;
+     }
+
