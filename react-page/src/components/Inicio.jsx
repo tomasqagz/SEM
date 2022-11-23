@@ -16,7 +16,7 @@ sea un proyecto totalmente funcional y escalable para poder continuarlo en los s
  diferentes funcionalidades, Editor, Contactos y Envio.</div>
 <div class="div31"> <i class="fa fa-pencil-square-o fa-2x"></i> <h1> EDITOR</h1> Aca se encuentra el armado y la edicion del mail, si bien al principio va a ser un poco simple la idea a futuro 
 es poder realizar un sistema de Drag&Drop donde se puedan arrastrar imagenes, secciones, hipervinculos, titulos, etc. </div>
-<div class="div41"> <i class="fa fa-folder-open fa-2x"></i> <h1> CONTACTOS</h1>En esta parte se encuentran los contactos, al prinicipio tambien sera simple, se subira un excel, ahi mismo el programa obtendra
+<div class="div41"> <i class="fa fa-folder-open fa-2x"></i> <h1> CONTACTOS</h1>En esta parte se encuentran los contactos, al principio tambien sera simple, se subira un excel, ahi mismo el programa obtendra
 los datos y los mostrara por pantalla, al mismo tiempo que por detras solo se agarraran los mails y se los enviara a la parte final del Envio. </div>
 <div class="div51"> <i class="fa fa-envelope-o fa-2x"></i> <h1> ENVIO</h1> La parte final.. aqui se confeccionara el mail completo remitente, destinatarios, asunto y finalmente el mensaje, algunos 
 de estos topics se haran automaticamente como puede ser los destinarios y el mensaje y otros se tendran que escribir manualmente como el titulo.  </div>
