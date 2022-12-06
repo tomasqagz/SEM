@@ -9,7 +9,7 @@ import {Inicio} from './components/Inicio';
 function App() {
   return (
     <div>
-      
+      <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>
       
       
       <div class="parent">
