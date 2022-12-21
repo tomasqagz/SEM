@@ -1,6 +1,5 @@
 import React from 'react'
 import './css/Sidebar.css'
-import {NavLink} from 'react-router-dom'
 
 
 
@@ -9,12 +8,12 @@ export const Sidebar = () => {
 
 
     <div>
-        <div class="area"></div><nav class="main-menu">
+        <div className="area"></div><nav className="main-menu">
             <ul>
                 <li>
                     <a href="/Inicio">
-                        <i class="fa fa-home fa-2x"></i>
-                        <span class="nav-text">
+                        <i className="fa fa-home fa-2x"></i>
+                        <span className="nav-text">
                             Inicio
                         </span>
                     </a>
@@ -22,17 +21,17 @@ export const Sidebar = () => {
 
                 <li>
                     <a href="/Editor">
-                       <i class="fa fa-pencil-square-o fa-2x"></i>
-                        <span class="nav-text">
+                       <i className="fa fa-pencil-square-o fa-2x"></i>
+                        <span className="nav-text">
                             Editor
                         </span>
                     </a>
                 </li>
             
-                <li class="has-subnav">
+                <li className="has-subnav">
                     <a href="/Contactos">
-                       <i class="fa fa-folder-open fa-2x"></i>
-                        <span class="nav-text">
+                       <i className="fa fa-folder-open fa-2x"></i>
+                        <span className="nav-text">
                             Contactos
                         </span>
                     </a>
@@ -41,8 +40,8 @@ export const Sidebar = () => {
                 
                 <li>
                    <a href="/Enviar">
-                        <i class="fa fa-envelope-o fa-2x"></i>
-                        <span class="nav-text">
+                        <i className="fa fa-envelope-o fa-2x"></i>
+                        <span className="nav-text">
                             Enviar
                         </span>
                     </a>
@@ -50,11 +49,11 @@ export const Sidebar = () => {
                 
             </ul>
 
-            <ul class="logout">
+            <ul className="logout">
                 <li>
                    <a href="#">
-                         <i class="fa fa-power-off fa-2x"></i>
-                        <span class="nav-text">
+                         <i className="fa fa-power-off fa-2x"></i>
+                        <span className="nav-text">
                             Logout
                         </span>
                     </a>

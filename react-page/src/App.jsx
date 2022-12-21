@@ -12,11 +12,11 @@ function App() {
       <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>
       
       
-      <div class="parent">
-        <div class="div1"> <Sidebar></Sidebar> 
+      <div className="parent">
+        <div className="div1"> <Sidebar></Sidebar> 
         </div>
 
-        <div class="div2"> 
+        <div className="div2"> 
           <BrowserRouter>
             <Routes>
               <Route path="/Inicio" element={<Inicio />}></Route>
